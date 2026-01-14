@@ -15,6 +15,7 @@ DATA:
   INPUT_CHANNEL_NUM: [3]
 TIMESFORMER:
   ATTENTION_TYPE: 'divided_space_time'
+  PRETRAINED_MODEL: '/path/to/your/local/jx_vit_base_p16_224-80ecf9dd.pth'
 SOLVER:
   BASE_LR: 0.005
   LR_POLICY: steps_with_relative_lrs
